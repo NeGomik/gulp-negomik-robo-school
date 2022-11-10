@@ -1,0 +1,10 @@
+.header__nav-items {
+    @include flex-v-center;
+    margin-top: 38px;
+    &__nav-item {
+        margin-left: 40px;
+        &-item-href {
+            color: #FFFFFF;
+        }
+    }
+}
