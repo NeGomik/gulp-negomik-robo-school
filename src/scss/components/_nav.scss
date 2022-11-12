@@ -2,11 +2,5 @@
     &-items {
         @include flex-v-center;
         margin-top: 38px;
-        &-item {
-            padding-left: 40px;
-            &-item-href {
-                color: #FFFFFF;
-            }
-        }
     }
 }
