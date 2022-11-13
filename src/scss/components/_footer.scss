@@ -1,0 +1,120 @@
+.footer__container {
+    background-color: #D52027;
+}
+
+.footer__container-top {
+    display: flex;
+    background-color: #D52027;
+    width: 1160px;
+    margin: 0 auto;
+    height: 460px;
+    color: #FFFFFF;
+    &-left-title {
+        width: 360px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 130%;
+        font-family: 'Jost', sans-serif;
+        margin-top: 106px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+    &-left-text {
+        width: 396px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        font-family: 'Jost', sans-serif;
+        margin-left: 60px;
+    }
+    &-right {
+        width: 500px;
+        height: 286px;
+        width: 100%;
+        margin-left: 64px;
+        margin-top: 87px;
+    }
+    &-name {
+        width: 500px;
+        height: 64px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding-left: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(40, 41, 68, 0.7);
+        font-family: 'Jost', sans-serif;
+        border: 0px solid;
+    }
+    &-phone {
+        width: 500px;
+        height: 64px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding-left: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(40, 41, 68, 0.7);
+        font-family: 'Jost', sans-serif;
+        border: 0px solid;
+    }
+    &-email {
+        width: 500px;
+        height: 64px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding-left: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(40, 41, 68, 0.7);
+        font-family: 'Jost', sans-serif;
+        border: 0px solid;
+    }
+    &-btn {
+        width: 500px;
+        height: 64px;
+        border-radius: 5px;
+        background-color: #141024;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+        border: 0px solid;
+    }
+}
+
+.footer__container-botton {
+    display: flex;
+    background-color: #141024;
+    color: #FFFFFF;
+    height: 159px;
+    &-left {
+        margin-left: 100px;
+    }
+    &-logo {
+        font-family: 'Jost', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 160%;
+        margin-top: 40px;
+    }
+    &-text {
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    &-right {
+        font-family: 'Jost', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 160%;
+        margin-top: 40px;
+        margin-right: 100px;
+        margin-left: auto;
+    }
+}

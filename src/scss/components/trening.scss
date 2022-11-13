@@ -1,0 +1,51 @@
+.trainers__container-title {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 160%;
+    font-family: 'Jost', sans-serif;
+}
+
+.trainers {
+    &__wrapper {
+        padding-left: max(15px, calc((100% - var(--content-width)) / 2));
+    }
+    &__item-name {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 160%;
+        font-family: 'Jost', sans-serif;
+        padding-bottom: 10px;
+    }
+    &__item-text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        font-family: 'Jost', sans-serif;
+        padding-bottom: 20px;
+    }
+    &__item-btn {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        font-family: 'Jost', sans-serif;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0);
+        border: 0px;
+        color: #D52027;
+        margin-bottom: 220px;
+    }
+}
+
+.image {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    max-height: 500px;
+}
+
+.swiper-slide {
+    width: 360px;
+}
