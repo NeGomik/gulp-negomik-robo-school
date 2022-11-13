@@ -1,0 +1,37 @@
+.container__peculiarities {
+    width: 1160px;
+    background-color: #fff;
+    margin: 120px auto 120px;
+    &-text {
+        width: 891px;
+        font-weight: 400;
+        font-size: 30px;
+        font-family: 'Jost', sans-serif;
+        line-height: 160%;
+        &-text span {
+            font-weight: 600;
+        }
+    }
+    &-number {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        &-number {
+            font-weight: 600;
+            font-size: 70px;
+            color: #D52027;
+            font-family: 'Jost', sans-serif;
+        }
+        &-text {
+            padding: 0;
+            margin: 0;
+            width: 300px;
+            height: 58px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 160%;
+            color: rgba(20, 16, 36, 0.7);
+        }
+    }
+}
