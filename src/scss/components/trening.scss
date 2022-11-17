@@ -36,7 +36,7 @@
         background: rgba(0, 0, 0, 0);
         border: 0px;
         color: #D52027;
-        margin-bottom: 220px;
+        // margin-bottom: 220px;
     }
 }
 
@@ -48,4 +48,36 @@
 
 .swiper-slide {
     width: 360px;
+}
+
+.trainers__scroll {
+    border-radius: 40px;
+    background: rgba( 20, 16, 36, 0.08);
+    width: 360px;
+    height: 5px;
+    margin-top: 75px;
+    margin-bottom: 120px;
+}
+
+.trainers__nav {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trainers__slider-btn {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.trainers__slider-btn--prev {
+    margin-top: 60px;
+    background-image: url(../img/svg/prev.svg);
+}
+
+.trainers__slider-btn--next {
+    background-image: url(../img/svg/next.svg);
 }
